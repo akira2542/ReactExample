@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import './css/index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
-ReactDOM.render(
+// function สั่ง render จากไฟล์ JS เป็น HTML 
+ReactDOM.render( 
   <React.StrictMode>
-    <App />
+     <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
